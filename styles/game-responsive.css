@@ -89,6 +89,28 @@
     gap: 80px;
     padding: 40px;
   }
+
+  .bottom-btn-section {
+    padding: 20px 30px;
+    grid-template-columns: repeat(auto-fill, minmax(120px, max-content));
+  }
+  .img-buttons img {
+    padding: 5px;
+    width: 30px;
+    border-radius: 15px;
+  }
+  .bottom-btn-section p {
+    padding: 5px;
+    color: #0b0223;
+    font-size: 0.5rem;
+    font-weight: 500;
+  }
+  .img-buttons {
+    border-radius: 30px;
+  }
+  .img-buttons:hover {
+    border: 1px solid #ff42a5;
+  }
 }
 
 /* tablet part */
