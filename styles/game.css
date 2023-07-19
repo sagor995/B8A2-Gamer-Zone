@@ -235,12 +235,20 @@ body {
   font-size: 1.12rem;
 }
 
+.instant-img {
+  position: relative;
+}
+
 .instant-img img {
   border-radius: 8px;
 }
 
 .instant-sub-image {
-  position: relative;
-  bottom: 300px;
-  right: 150px;
+  position: absolute;
+  top: 60%;
+  left: -30%;
+}
+
+.career {
+  margin-top: 100px;
 }

@@ -51,8 +51,8 @@
   }
   .instant-sub-image {
     width: 40%;
-    bottom: 100px;
-    right: 40px;
+    top: 65%;
+    left: -10%;
   }
 }
 
