@@ -103,6 +103,7 @@ body {
     rgba(140, 87, 238, 0.03) 0%,
     rgba(241, 68, 174, 0.03) 100%
   ); */
+  background: url("../images/Group14.png");
 }
 
 .banner-list {
@@ -114,8 +115,6 @@ body {
 }
 
 .banner-images {
-  background: white;
-
   margin-top: 19px;
 }
 
@@ -143,4 +142,73 @@ body {
   font-size: 1.25rem;
   font-weight: 500;
   text-transform: lowercase;
+}
+
+/* Online Game section */
+.online-games {
+  text-align: center;
+}
+.online-games h3 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+}
+.online-games p {
+  color: #534c64;
+  font-weight: 400;
+  margin-bottom: 1.12rem;
+}
+.online-games-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.game-item img {
+  border-radius: 16px;
+}
+
+.game-item p {
+  text-align: center;
+  width: 365px;
+  color: #534c64;
+
+  font-weight: 500;
+}
+
+.game-item {
+  position: relative;
+  /* float: left; */
+}
+
+.game-inner {
+  position: relative;
+}
+
+.play p {
+  color: #ff42a5;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.game-item:hover .game-img img {
+  /* background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.6) 0%,
+      rgba(0, 0, 0, 0.6) 100%
+    ),
+    lightgray 50%; */
+  border: 2px solid #ff42a5;
+}
+
+.game-item:hover .play {
+  display: block;
+}
+
+.play {
+  position: absolute;
+  display: none;
+  top: 30%;
+  margin: 0 auto;
 }

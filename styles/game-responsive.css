@@ -1,12 +1,13 @@
 /* Responsive corner */
 /* Mobile part */
 @media screen and (max-width: 576px) {
-  .menu-container {
+  .menu-container,
+  .menus,
+  .online-games-container {
     flex-direction: column;
   }
-
-  .menus {
-    flex-direction: column;
+  .additional-menu-items {
+    margin-bottom: 30px;
   }
 
   .banner-section {
@@ -29,6 +30,12 @@
     font-size: 0.8rem;
   }
   .btn-primary {
+    font-size: 0.8rem;
+  }
+  .online-games h3 {
+    font-size: 1.8rem;
+  }
+  .online-games p {
     font-size: 0.8rem;
   }
 }
