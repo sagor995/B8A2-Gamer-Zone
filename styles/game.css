@@ -212,7 +212,7 @@ body {
 }
 
 .game-item p {
-  text-align: center;
+  text-align: left;
   width: 365px;
   color: #534c64;
 
@@ -257,6 +257,7 @@ body {
 
 /* Instantly Play styles */
 .instantly-play {
+  margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
   gap: 100px;
