@@ -212,3 +212,35 @@ body {
   top: 30%;
   margin: 0 auto;
 }
+
+/* Instantly Play styles */
+.instantly-play {
+  display: flex;
+  justify-content: space-around;
+}
+
+.instant-content {
+  margin-top: 150px;
+  max-width: 345px;
+}
+.instant-content h3 {
+  color: #0b0223;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.instant-content p {
+  color: #534c64;
+  font-size: 1.12rem;
+}
+
+.instant-img img {
+  border-radius: 8px;
+}
+
+.instant-sub-image {
+  position: relative;
+  bottom: 300px;
+  right: 150px;
+}

@@ -3,7 +3,8 @@
 @media screen and (max-width: 576px) {
   .menu-container,
   .menus,
-  .online-games-container {
+  .online-games-container,
+  .instantly-play {
     flex-direction: column;
   }
   .additional-menu-items {
@@ -37,6 +38,21 @@
   }
   .online-games p {
     font-size: 0.8rem;
+  }
+
+  .instantly-play {
+    padding-left: 70px;
+  }
+  .instant-content {
+    margin: 10px;
+  }
+  .instant-img img {
+    width: 80%;
+  }
+  .instant-sub-image {
+    width: 40%;
+    bottom: 100px;
+    right: 40px;
   }
 }
 
