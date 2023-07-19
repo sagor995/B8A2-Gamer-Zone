@@ -73,6 +73,22 @@
     width: 80%;
     padding: 40px;
   }
+
+  .footer-header {
+    padding-bottom: 10px;
+  }
+  .footer-mean-one,
+  .footer-mean-two {
+    flex-wrap: wrap;
+    gap: 10%;
+    padding: 20px;
+  }
+
+  .socail-icons {
+    flex-wrap: wrap;
+    gap: 80px;
+    padding: 40px;
+  }
 }
 
 /* tablet part */
