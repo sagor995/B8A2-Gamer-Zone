@@ -249,6 +249,46 @@ body {
   left: -30%;
 }
 
+/* Career Section */
+
 .career {
-  margin-top: 100px;
+  background: linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 180px;
+  color: white;
+}
+
+.career-content {
+  padding-left: 150px;
+}
+
+.career-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.career-description {
+  max-width: 600px;
+  font-size: 1.12rem;
+  margin-top: 0;
+}
+.cbtn {
+  margin-top: 40px;
+  border-radius: 48px;
+  background: #fff;
+  border: none;
+  padding: 20px 40px;
+}
+
+.career-part li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+
+.career-part {
+  display: flex;
+  justify-content: space-between;
 }

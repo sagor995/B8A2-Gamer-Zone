@@ -4,7 +4,8 @@
   .menu-container,
   .menus,
   .online-games-container,
-  .instantly-play {
+  .instantly-play,
+  .career {
     flex-direction: column;
   }
   .additional-menu-items {
@@ -53,6 +54,24 @@
     width: 40%;
     top: 65%;
     left: -10%;
+  }
+  .career-title {
+    font-size: 1.8rem;
+  }
+  .career-description {
+    font-size: 0.8rem;
+  }
+
+  .career-content {
+    padding-left: 40px;
+  }
+  .career-description {
+    max-width: 400px;
+  }
+
+  .career-img img {
+    width: 80%;
+    padding: 40px;
   }
 }
 
