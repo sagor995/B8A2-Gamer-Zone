@@ -8,6 +8,29 @@
   .menus {
     flex-direction: column;
   }
+
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-content {
+    padding-left: 50px;
+  }
+
+  .banner-images img {
+    max-width: 400px;
+  }
+  .banner-content h2 {
+    font-size: 2rem;
+  }
+  .banner-content h1 {
+    font-size: 3rem;
+  }
+  .banner-list p {
+    font-size: 0.8rem;
+  }
+  .btn-primary {
+    font-size: 0.8rem;
+  }
 }
 
 /* tablet part */
