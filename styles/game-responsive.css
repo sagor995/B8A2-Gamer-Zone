@@ -5,7 +5,8 @@
   .menus,
   .online-games-container,
   .instantly-play,
-  .career {
+  .career,
+  .gamer {
     flex-direction: column;
   }
   .additional-menu-items {
@@ -34,6 +35,32 @@
   .btn-primary {
     font-size: 0.8rem;
   }
+
+  .gamer-img img {
+    width: 90%;
+    padding-left: 20px;
+  }
+  .gamer-content {
+    padding-right: 10px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .gamer-title {
+    font-size: 2rem;
+  }
+  .gamer-text {
+    font-size: 0.8rem;
+  }
+  .gamer-content p {
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 0.8rem;
+  }
+
+  .text-extra {
+    font-size: 1.2rem;
+  }
+
   .online-games h3 {
     font-size: 1.8rem;
   }

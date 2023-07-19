@@ -144,6 +144,48 @@ body {
   text-transform: lowercase;
 }
 
+/* Gamer Section */
+.gamer {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+}
+.gamer-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+.gamer-text {
+  color: #534c64;
+  font-size: 1.12rem;
+}
+.gamer-img img {
+  width: 100%;
+}
+.gamer-content {
+  text-align: right;
+  max-width: 520px;
+  padding-right: 100px;
+}
+
+.gamer-content p {
+  color: #534c64;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.text-extra {
+  color: #534c64;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
 /* Online Game section */
 .online-games {
   text-align: center;
@@ -216,7 +258,8 @@ body {
 /* Instantly Play styles */
 .instantly-play {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  gap: 100px;
 }
 
 .instant-content {
@@ -258,6 +301,7 @@ body {
   align-items: center;
   margin-top: 180px;
   color: white;
+  gap: 10px;
 }
 
 .career-content {
@@ -334,7 +378,7 @@ footer {
 }
 
 .footer-header {
-  padding-top: 126px;
+  padding-top: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
