@@ -254,6 +254,9 @@ body {
   top: 30%;
   margin: 0 auto;
 }
+.play p {
+  text-align: center;
+}
 
 /* Instantly Play styles */
 .instantly-play {
