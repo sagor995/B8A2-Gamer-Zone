@@ -1,0 +1,13 @@
+/* Responsive corner */
+/* Mobile part */
+@media screen and (max-width: 576px) {
+  .menu-container {
+    flex-direction: column;
+  }
+
+  .menus {
+    flex-direction: column;
+  }
+}
+
+/* tablet part */
