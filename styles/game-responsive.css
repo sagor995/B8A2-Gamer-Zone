@@ -340,6 +340,7 @@
 
   .instant-img img {
     width: 80%;
+    padding-left: 40px;
   }
   .instant-sub-image {
     margin: auto;
