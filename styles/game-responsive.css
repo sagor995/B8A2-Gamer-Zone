@@ -27,8 +27,8 @@
   }
 
   .header-logo h3 {
-    font-size: 2rem;
-    margin-left: 10px;
+    font-size: 1.5rem;
+    margin-left: 5px;
   }
 
   .header-logo img {
@@ -64,7 +64,7 @@
   }
 
   .banner-images img {
-    max-width: 400px;
+    max-width: 350px;
   }
   .banner-content h2 {
     font-size: 2rem;
