@@ -250,6 +250,14 @@ body {
   top: 30%;
   margin: 0 auto;
 }
+
+.play img {
+  transition: transform 0.75s;
+}
+.play:hover img {
+  transform: rotate(360deg);
+}
+
 .play p {
   text-align: center;
 }
