@@ -358,26 +358,20 @@ body {
 
 /* bottom-btn-section Styles */
 .bottom-btn-section {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   padding: 100px 120px;
-  /* grid-template-columns: repeat(3, 1fr);
-  justify-content: space-between;
-  align-items: center;
-  gap: 27px;
-  flex-wrap: wrap; */
-  grid-template-columns: repeat(auto-fill, minmax(250px, max-content));
-  justify-items: center;
-  align-items: center;
 }
 .img-buttons img {
   padding: 10px;
-  width: 60px;
   border-radius: 30px;
 }
 .bottom-btn-section p {
   padding-top: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 8px;
+  padding-right: 15px;
   color: #0b0223;
   font-size: 1.25rem;
   font-weight: 600;
@@ -389,6 +383,9 @@ body {
 }
 .img-buttons:hover {
   border: 2px solid #ff42a5;
+}
+.img-buttons:hover p {
+  color: #ff42a5;
 }
 
 /* Footer Styles */
