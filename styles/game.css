@@ -329,6 +329,7 @@ body {
   max-width: 600px;
   font-size: 1.12rem;
   margin-top: 0;
+  margin-bottom: 32px;
 }
 .cbtn {
   margin-top: 40px;
@@ -336,6 +337,9 @@ body {
   background: #fff;
   border: none;
   padding: 20px 40px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
 }
 
 .career-part li {
@@ -346,6 +350,10 @@ body {
 .career-part {
   display: flex;
   justify-content: space-between;
+}
+
+.career-country {
+  text-align: right;
 }
 
 /* bottom-btn-section Styles */
