@@ -191,7 +191,7 @@
   .career-description {
     font-size: 0.8rem;
     margin-bottom: 20px;
-    max-width: 400px;
+    max-width: 350px;
   }
 
   .cbtn {
@@ -201,7 +201,7 @@
   }
 
   .career-content {
-    padding-left: 20px;
+    padding-left: 15px;
   }
 
   .career-img img {
@@ -211,6 +211,9 @@
 
   .career-part li {
     font-size: 0.8rem;
+  }
+  .career-country {
+    padding-right: 10px;
   }
 
   .bottom-btn-section {
@@ -259,7 +262,7 @@
   }
 
   .bottom-btn-section {
-    padding: 20px 30px;
+    padding: 20px 25px;
     grid-template-columns: repeat(auto-fill, minmax(120px, max-content));
   }
   .img-buttons img {
