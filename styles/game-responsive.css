@@ -39,9 +39,11 @@
     font-size: 0.8rem;
   }
 
-  .banner-section {
+  .banner-section,
+  .ip2 {
     flex-direction: column-reverse;
   }
+
   .banner-content {
     background: url("../images/Group14.png");
     padding: 40px 80px;
@@ -140,11 +142,32 @@
   }
 
   .instantly-play {
-    padding-left: 70px;
+    margin-top: 20px;
+    gap: 10px;
   }
+
+  .ip2 {
+    padding-top: 20px;
+  }
+
   .instant-content {
+    text-align: center;
     margin: 10px;
+    padding: 40px;
   }
+
+  .instant-content h3 {
+    font-size: 2rem;
+    margin-bottom: 24px;
+  }
+
+  .instant-content p {
+    font-size: 0.8rem;
+  }
+  .instant-img {
+    margin-left: 80px;
+  }
+
   .instant-img img {
     width: 80%;
   }
@@ -158,18 +181,27 @@
     left: 60%;
   }
 
+  .career {
+    margin-top: 120px;
+    margin-bottom: 15px;
+  }
   .career-title {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
   .career-description {
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+    max-width: 400px;
+  }
+
+  .cbtn {
+    margin-top: 20px;
+    padding: 10px 20px;
     font-size: 0.8rem;
   }
 
   .career-content {
-    padding-left: 40px;
-  }
-  .career-description {
-    max-width: 400px;
+    padding-left: 20px;
   }
 
   .career-img img {
@@ -177,13 +209,46 @@
     padding: 40px;
   }
 
+  .career-part li {
+    font-size: 0.8rem;
+  }
+
+  .bottom-btn-section {
+    padding: 80px 100px;
+  }
+  .img-buttons img {
+    padding: 10px;
+    border-radius: 30px;
+  }
+  .bottom-btn-section p {
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 15px;
+    font-size: 0.8rem;
+  }
+  .img-buttons {
+    border-radius: 50px;
+  }
+
   .footer-header {
+    padding-top: 30px;
     padding-bottom: 10px;
   }
+
+  .footer-header h3 {
+    font-size: 2rem;
+    margin-left: 10px;
+  }
+
+  .footer-header img {
+    height: 30px;
+  }
+
   .footer-mean-one,
   .footer-mean-two {
+    font-size: 0.8rem;
     flex-wrap: wrap;
-    gap: 10%;
+    gap: 20%;
     padding: 20px;
   }
 
@@ -213,6 +278,13 @@
   }
   .img-buttons:hover {
     border: 1px solid #ff42a5;
+  }
+
+  .footer-msg {
+    max-width: 300px;
+    margin: auto;
+    font-size: 0.8rem;
+    padding-bottom: 60px;
   }
 }
 
